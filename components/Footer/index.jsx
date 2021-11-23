@@ -14,6 +14,7 @@ import {
 	Link,
 } from "./FooterElements";
 import images from "../../constants/images";
+import { baseUrl } from "../../constants/consts";
 
 const Footer = () => {
 	return (
