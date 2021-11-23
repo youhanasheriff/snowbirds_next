@@ -1,6 +1,6 @@
 import images from "./images";
 
-const baseUrl = "/snowbirds_next";
+// const baseUrl = "/snowbirds_next";
 
 const products = {
 	hvac_rProducts: {
@@ -412,19 +412,19 @@ const products = {
 
 const featuredProducts = [
 	{
-		url: baseUrl + images.featuredProducts.acSpares.src,
+		url: images.featuredProducts.acSpares.src,
 		title: "Air Conditioner Spare Parts",
 		description:
 			"We maintain sufficient inventories of spare parts for all world renowned brands such as TRANE, CARRIER, YORK, SKM etc...",
 	},
 	{
-		url: baseUrl + images.featuredProducts.hvacAccessories.src,
+		url: images.featuredProducts.hvacAccessories.src,
 		title: "Air Conditioner Spare Parts",
 		description:
 			"We maintain sufficient inventories of spare parts for all world renowned brands such as TRANE, CARRIER, YORK, SKM etc...",
 	},
 	{
-		url: baseUrl + images.featuredProducts.hvacTools.src,
+		url: images.featuredProducts.hvacTools.src,
 		title: "Air Conditioner Spare Parts",
 		description:
 			"We maintain sufficient inventories of spare parts for all world renowned brands such as TRANE, CARRIER, YORK, SKM etc...",
@@ -636,5 +636,5 @@ export {
 	navLinks,
 	products,
 	frequentList,
-	baseUrl,
+	// baseUrl,
 };

@@ -13,7 +13,7 @@ import {
 const ProductHeader = ({ title }) => {
 	const isAbout = title == "About Us";
 	return (
-		<BgDiv url={baseUrl + images.productsPageBGg.acTech.src}>
+		<BgDiv url={images.productsPageBGg.acTech.src}>
 			<BlackBg>
 				<LinkLoc>
 					<Link href="/">

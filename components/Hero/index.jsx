@@ -7,11 +7,11 @@ const HeroSection = () => {
 	return (
 		<Slider>
 			<Slides>
-				<ImageDiv url={baseUrl + images.heroSlides.img1.src}></ImageDiv>
-				<ImageDiv url={baseUrl + images.heroSlides.img2.src}></ImageDiv>
-				<ImageDiv url={baseUrl + images.heroSlides.img3.src}></ImageDiv>
-				<ImageDiv url={baseUrl + images.heroSlides.img4.src}></ImageDiv>
-				<ImageDiv url={baseUrl + images.heroSlides.img1.src}></ImageDiv>
+				<ImageDiv url={images.heroSlides.img1.src}></ImageDiv>
+				<ImageDiv url={images.heroSlides.img2.src}></ImageDiv>
+				<ImageDiv url={images.heroSlides.img3.src}></ImageDiv>
+				<ImageDiv url={images.heroSlides.img4.src}></ImageDiv>
+				<ImageDiv url={images.heroSlides.img1.src}></ImageDiv>
 			</Slides>
 		</Slider>
 	);

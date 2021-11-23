@@ -7,7 +7,7 @@ const CategoryCard = ({ link, url, title, br }) => {
 	return (
 		<Link href={link}>
 			<Anchor href="">
-				<Image src={baseUrl + url} alt={title} />
+				<Image src={url} alt={title} />
 				<Para>
 					{title} {br ? <br /> : ""} &nbsp;
 				</Para>
