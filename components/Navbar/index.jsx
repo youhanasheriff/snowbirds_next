@@ -10,7 +10,7 @@ import {
 	NavLinks,
 	MegaLinks,
 } from "./NavbarElements";
-import { navLinks } from "../../constants/consts";
+import { baseUrl, navLinks } from "../../constants/consts";
 
 const Navbar = () => {
 	function showAlert() {
@@ -25,7 +25,7 @@ const Navbar = () => {
 							<img
 								height="70px"
 								width="300px"
-								src={images.logos.logo.src}
+								src={baseUrl + images.logos.logo.src}
 								alt="LOGO"
 							/>
 						</a>

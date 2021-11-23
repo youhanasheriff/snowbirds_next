@@ -625,6 +625,8 @@ const frequentList = [
 	},
 ];
 
+const baseUrl = "/snowbirds_next";
+
 export {
 	featuredProducts,
 	categories1,
@@ -634,4 +636,5 @@ export {
 	navLinks,
 	products,
 	frequentList,
+	baseUrl,
 };

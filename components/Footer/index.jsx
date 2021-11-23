@@ -15,6 +15,7 @@ import {
 } from "./FooterElements";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import images from "../../constants/images";
+import { baseUrl } from "../../constants/consts";
 
 const Footer = () => {
 	return (
@@ -36,19 +37,19 @@ const Footer = () => {
 				<BoxContent>
 					<div>
 						<Link href="https://goo.gl/maps/6wafZ11B5Lb2Jn2z8" target="_blank">
-							<Icon src={images.icons.location.src} alt=""></Icon>
+							<Icon src={baseUrl + images.icons.location.src} alt=""></Icon>
 							<Texts>T.Nagar, Chennai, Tamil Nadu</Texts>
 						</Link>
 					</div>
 					<div>
 						<Link href="tel:+919942333506" target="_blank">
-							<Icon src={images.icons.phone.src} alt=""></Icon>
+							<Icon src={baseUrl + images.icons.phone.src} alt=""></Icon>
 							<Texts>+91-9941333506</Texts>
 						</Link>
 					</div>
 					<div>
 						<Link href="mailto:info@snowbirds.com" target="_blank">
-							<Icon src={images.icons.envelope.src} alt=""></Icon>
+							<Icon src={baseUrl + images.icons.envelope.src} alt=""></Icon>
 							<Texts>info@snowbirds.com</Texts>
 						</Link>
 					</div>

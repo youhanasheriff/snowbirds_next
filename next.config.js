@@ -1,3 +1,5 @@
 module.exports = {
-  reactStrictMode: true,
-}
+	reactStrictMode: true,
+	assetPath: "/snowbirds_next",
+	basePath: "/snowbirds_next",
+};
