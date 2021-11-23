@@ -1,10 +1,10 @@
-import { baseUrl } from "../../../constants/consts";
 import {
 	ProductCard,
 	CardContent,
 	ImageBox,
 	Image,
 } from "./SubProductsElements";
+import { baseUrl } from "../../../constants/consts";
 
 const SubProducts = ({ product }) => {
 	return (

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { baseUrl } from "../../../constants/consts";
 import images from "../../../constants/images";
 import {
 	BgDiv,
@@ -12,7 +13,7 @@ import {
 const ProductHeader = ({ title }) => {
 	const isAbout = title == "About Us";
 	return (
-		<BgDiv url={images.productsPageBGg.acTech.src}>
+		<BgDiv url={baseUrl + images.productsPageBGg.acTech.src}>
 			<BlackBg>
 				<LinkLoc>
 					<Link href="/">

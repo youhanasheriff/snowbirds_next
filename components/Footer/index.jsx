@@ -13,9 +13,7 @@ import {
 	Texts,
 	Link,
 } from "./FooterElements";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import images from "../../constants/images";
-import { baseUrl } from "../../constants/consts";
 
 const Footer = () => {
 	return (
